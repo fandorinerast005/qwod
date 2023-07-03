@@ -1,3 +1,4 @@
+<script>
   var telegramLink = document.querySelector('.telegram-link');
   var underlineOnHover = document.querySelector('.underline-on-hover');
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -57,3 +58,4 @@
 
     phoneIcon.addEventListener("mouseover", jump);
   }
+    </script>
