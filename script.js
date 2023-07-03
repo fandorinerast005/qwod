@@ -1,4 +1,4 @@
-    var telegramLink = document.querySelector('.telegram-link');
+  var telegramLink = document.querySelector('.telegram-link');
   var underlineOnHover = document.querySelector('.underline-on-hover');
 
   telegramLink.addEventListener('mouseover', function() {
