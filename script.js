@@ -1,4 +1,4 @@
-  var telegramLink = document.querySelector('.telegram-link');
+    var telegramLink = document.querySelector('.telegram-link');
   var underlineOnHover = document.querySelector('.underline-on-hover');
 
   telegramLink.addEventListener('mouseover', function() {
@@ -66,7 +66,7 @@
     document.body.appendChild(phoneIcon2);
 
     function openTelegram() {
-      window.open('https://t.me/...?text=Привет!%20У%20меня%20вопрос%20по%20...', '_blank');
+      window.open('https://t.me/*****?text=Привет!%20У%20меня%20вопрос%20по%20*****.', '_blank');
     }
 
     phoneIcon2.addEventListener("click", openTelegram);
